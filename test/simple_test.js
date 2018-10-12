@@ -45,13 +45,6 @@ describe('Calculontest', () => {
     const result = Calculontest.add(x, y, z)
     assert.equal(result, 10476)
   })
-  //it('add a string of numbers together', () => {
-  //  const x = 3
-  //  const y = 5
-  //  const z = 7
-  //  const result = Calculontest.add(x, y, z)
-  //  assert.equal(result, 15)
-  // })
 
   it('subtract one positive number from one positive number', () => {
     const x = 10
@@ -91,12 +84,6 @@ describe('Calculontest', () => {
     const result = Calculontest.subtract(x, y, z)
     assert.equal(result, 99050.38095238095)
   })
-// it("multiply one positive number by one percentage", () => {
-// const x = 50
-// const y = percentage(30, per)
-// const result = Calculontest.multiply(x, y)
-// assert.equal(result, 15)
-// })
 
   it('multiply two positive numbers together', () => {
     const x = 3
@@ -137,10 +124,5 @@ describe('Calculontest', () => {
     const result = Calculontest.divide(x, y, z)
     assert.equal(result, .5)
   })
-  // Testing for over exposure from the src/index.js file.
-  // The js file doens't export the add function by default, and we must make it export in the export default
-  // Use this test when you have developers that over expose things, "Protect the privates"
-  // it(`does not expose the add function without the default`, () => {
-  //   assert.fail(add(1, 2))
-  // })
+  
   });
